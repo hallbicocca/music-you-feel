@@ -3,7 +3,7 @@ import { musicIcon } from "./Icons";
 
 function NavbarMusicYouFeel() {
   return (
-    <Navbar bg='light' expand='lg'>
+    <Navbar bg='light' expand='lg' className='sidebar'>
       <Container>
         <Navbar.Brand className='brand' href='/'>
           {musicIcon} MusicYouFeel
